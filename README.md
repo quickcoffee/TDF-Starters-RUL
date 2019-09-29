@@ -22,7 +22,7 @@ Looking only at the career length of the retired riders, the average career leng
 Scatterplot of the test set:  
 ![scatter_plot](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/scatter_test.png?raw=true "Scatter Plot True vs. Predicted")
 
-And a two examples of the results on a rider level: 
+And a two examples of the results on a rider level:  
 **Peter Sagan**
 ![PS_plot](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/widget_plot.png?raw=true "Peter Sagan Predicted")
 **Robert Hunter**
