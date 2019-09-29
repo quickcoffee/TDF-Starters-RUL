@@ -9,5 +9,23 @@ Inspirations for this project were taken from RUL-projects such as https://githu
 Another way to approach is project is to take it as a classification problem (eg. Is rider XY still active in 5 years? Yes/No) rather than a regression problem.
 Unfortunately does Github not support the ipywidgets and in order to interactively explore the model's results it need to be opened as a Jupyter notebook.
 
-##Results
+## Results
+Fist let's have a look at the scraped and tranformed data:  
+  
+There are 1358 riders in the dataset, 890 of those are retired and 468 are still considered as active.
 
+![retired_active](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/active_retired.png?raw=true "Retired vs. Active riders")
+
+Looking only at the career length of the retired riders, the average career length is `13.8`:
+![Career Length](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/career-length.png?raw=true "Career Length")
+
+Scatterplot of the test set:  
+![scatter_plot](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/scatter_test.png?raw=true "Scatter Plot True vs. Predicted")
+
+And a two examples of the results on a rider level: 
+**Peter Sagan**
+![PS_plot](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/widget_plot.png?raw=true "Peter Sagan Predicted")
+**Robert Hunter**
+![RH_plot](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/rh_plot.png?raw=true "Robert Hunter Predicted")
+
+I hope you enjoy this project and let me know in case you have any questions or comments!
