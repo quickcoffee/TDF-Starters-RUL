@@ -19,6 +19,7 @@ There are 1358 riders in the dataset, 890 of those are retired and 468 are still
 Looking only at the career length of the retired riders, the average career length is `13.8`:
 ![Career Length](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/career-length.png?raw=true "Career Length")
 
+The predictions of the trained model are reasonable and give a rough estimate of a rider's career.
 Scatterplot of the test set:  
 ![scatter_plot](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/scatter_test.png?raw=true "Scatter Plot True vs. Predicted")
 
