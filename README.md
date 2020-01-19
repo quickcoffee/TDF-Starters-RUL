@@ -29,4 +29,9 @@ And a two examples of the results on a rider level:
 **Robert Hunter**
 ![RH_plot](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/rh_plot.png?raw=true "Robert Hunter Predicted")
 
+## Retired Riders Dashboard
+Using the same scraper I also gathered career statistics on retired grand tour (cycling racs over 3 week such as Tour de France) starters and visualized the dataset via a [shiny dashboard](https://aarhus.shinyapps.io/RetiredGrandTourStarters/).
+Please feel free and explore the data.
+![Dashboard](https://github.com/quickcoffee/TDF-Starters-RUL/blob/master/plots/Dashboard.png?raw=true "GT Dashboard")
+
 I hope you enjoy this project and let me know in case you have any questions or comments!
